@@ -3,7 +3,7 @@
 
   // creates a JavaScript object by parsing the JSON-formatted string from the file
   let obj = JSON.parse(jsonString);
-  console.log(obj);
+  // console.log(obj);
 
   /*
     EXERCISE 01:
@@ -14,9 +14,12 @@
   */
   
   // set theData here to an empty string
-  
+  let theData = "";
   // create a loop around this line with "for ... in" (look it up)_
-  let theData = `${obj.lecturers[1].firstName} ${obj.lecturers[1].lastName}`;
+  for (let i = 0, count = obj.lecturers.length; i < count; i++) {
+    theData += `<p>${obj.lecturers[i].firstName} ${obj.lecturers[i].lastName} 
+               <br>${obj.lecturers[i].office}`;
+  }
   // end the for loop here
   
   // populates the chosen element's content with the data:

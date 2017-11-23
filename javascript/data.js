@@ -1,24 +1,29 @@
 let jsonString = `
 { "lecturers": [
   { 
-    "firstName":"Dave" ,
-    "lastName":"Everitt"
+    "firstName":"Dave",
+    "lastName":"Everitt",
+    "office":"Part-time. At DMU only on class/lecture days."
   },
   {
     "firstName":"Fania",
-    "lastName":"Raczinski"
+    "lastName":"Raczinski",
+    "office":"Part-time. At DMU only on class/lecture days."
   },
   {
     "firstName":"Luke",
-    "lastName":"Attwood"
+    "lastName":"Attwood",
+    "office":"GH6.54"
   },
   {
     "firstName":"David",
-    "lastName":"Smallwood"
+    "lastName":"Smallwood",
+    "office":"GH6.71"
   },
   {
     "firstName":"Clinton",
-    "lastName":"Ingrams"
+    "lastName":"Ingrams",
+    "office":"GH5.27"
   }
 ]}
 `;
